@@ -106,7 +106,7 @@ class DepositMoneyView(TransactionCreateMixin):
 
         messages.success(
             self.request,
-            f'{amount}$ was deposited to your account successfully'
+            f'Successfully deposited ${amount} into your account.'
         )
 
         return super().form_valid(form)
@@ -128,7 +128,7 @@ class WithdrawMoneyView(TransactionCreateMixin):
 
         messages.success(
             self.request,
-            f'Successfully withdrawn {amount}$ from your account'
+            f'Successfully withdrawn ${amount} from your account'
         )
 
         return super().form_valid(form)
