@@ -79,3 +79,8 @@ admin email -> admin@admin.com
 
 admin password -> admin123
 ```
+
+![Screenshotfront](Screenshot_front.png)
+![Screenshottransaction](Screenshot_transaction.png)
+![Screenshotdeposit](Screenshot_deposit.png)
+![Screenshotwithdraw](Screenshot_withdraw.png)
